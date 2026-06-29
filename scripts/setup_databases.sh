@@ -14,9 +14,6 @@ set -a
 source .env
 set +a
 
-MYSQL_CONTAINER="dev-mysql"
-MONGO_CONTAINER="dev-mongo"
-
 MYSQL_RESTORE_FILE="scripts/initial_data/mysql.initial.sql"
 MONGO_RESTORE_FILE="scripts/initial_data/mongo.initial.js"
 
